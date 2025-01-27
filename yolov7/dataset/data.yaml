@@ -1,0 +1,13 @@
+train: 'C:\Users\aurel\OneDrive\Bureau\EFREI\M2\ML_for_DE\Sea_Trash_Detection\yolov7\dataset\train\images'
+val: 'C:\Users\aurel\OneDrive\Bureau\EFREI\M2\ML_for_DE\Sea_Trash_Detection\yolov7\dataset\valid\images'
+test: 'C:\Users\aurel\OneDrive\Bureau\EFREI\M2\ML_for_DE\Sea_Trash_Detection\yolov7\dataset\test\images'
+
+nc: 6
+names: ['bag', 'can', 'fish-net','glass', 'plastic bottle', 'ropes']
+
+roboflow:
+  workspace: seatrash-oyjlc
+  project: old-dt-plus-glass-and-plastic-relabeled
+  version: 2
+  license: CC BY 4.0
+  url: https://app.roboflow.com/seatrash-oyjlc/old-dt-plus-glass-and-plastic-relabeled/2
